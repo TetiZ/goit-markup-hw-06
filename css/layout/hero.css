@@ -64,7 +64,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/hero/mob-people-office.jpg);
+      url(./images/hero/mob-people-office.jpg);
   }
 }
 
@@ -81,7 +81,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/hero/tablet-people-office.jpg);
+      url(./images/hero/tablet-people-office.jpg);
   }
   .page-title {
     /* Box model */
@@ -101,7 +101,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/hero/people-office.jpg);
+      url(./images/hero/people-office.jpg);
   }
 
   .page-title {
@@ -120,7 +120,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/hero/mob-people-office@2x.jpg);
+      url(./images/hero/mob-people-office@2x.jpg);
   }
 }
 
@@ -133,7 +133,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/hero/tablet-people-office@2x.jpg);
+      url(./images/hero/tablet-people-office@2x.jpg);
   }
 }
 
@@ -146,6 +146,6 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/hero/people-office@2x.jpg);
+      url(./images/hero/people-office@2x.jpg);
   }
 }
