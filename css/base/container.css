@@ -22,6 +22,10 @@
   .our-team-container {
     width: 552px;
   }
+
+  .footer-container {
+    width: 496px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
