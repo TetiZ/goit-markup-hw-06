@@ -62,6 +62,18 @@
           </ul>
         </address>
       </div>
+      <div class="burger-menu">
+        <button class="burger-menu-btn" type="button">
+          <svg
+            class="icon-burger-menu"
+            width="24"
+            height="24"
+            aria-label="mobile menu open button"
+          >
+            <use href="./images/icons.svg#icon-menu-burger"></use>
+          </svg>
+        </button>
+      </div>
     </header>
 
     <!-- Основний вміст сторінки -->
@@ -597,7 +609,7 @@
     </footer>
 
     <!-- ##### Modal window - contact form ##### -->
-    <div class="modal-window-container is-open">
+    <div class="modal-window-container">
       <div class="modal-window">
         <button class="modal-close-btn" type="button">
           <svg class="icon-close" width="8" height="8">
@@ -690,6 +702,80 @@
 
           <button class="btn-modal-send btn" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+
+    <!-- ##### Modal window - mobile menu ##### -->
+    <div class="mobile-menu">
+      <button class="modal-close-btn" type="button">
+        <svg class="icon-close" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list list">
+          <li class="mobile-menu-list-item">
+            <a href="" class="section-title link active-mob-menu-link"
+              >studio</a
+            >
+          </li>
+          <li class="mobile-menu-list-item">
+            <a href="" class="section-title link">portfolio</a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a href="" class="section-title link">contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="menu-mob-contacts">
+        <address class="address-links">
+          <ul class="list address-mob-list">
+            <li class="address-mob-list-item">
+              <a
+                class="contact-links-mob link active-mob-menu-link"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+            <li class="address-mob-list-item">
+              <a class="contact-links-mob link" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+          </ul>
+        </address>
+
+        <ul class="sm-list list">
+          <li class="sm-list-item">
+            <a href="" class="sm-team-link sm-link link">
+              <svg class="sm-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="sm-list-item">
+            <a href="" class="sm-team-link sm-link link">
+              <svg class="sm-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="sm-list-item">
+            <a href="" class="sm-team-link sm-link link">
+              <svg class="sm-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="sm-list-item">
+            <a href="" class="sm-team-link sm-link link">
+              <svg class="sm-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
