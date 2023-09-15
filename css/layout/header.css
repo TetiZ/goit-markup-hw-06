@@ -91,13 +91,17 @@
 
   .contact-links {
     font-style: normal;
-    color: var(--primary-text-color);
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.03em;
 
     /* Transition */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .navigation-link,
+  .contact-links {
+    color: #2e2f42;
   }
 
   .contact-links:hover,
@@ -125,5 +129,9 @@
 
   .contact-links {
     font-size: 16px;
+  }
+
+  .navigation {
+    font-weight: 500;
   }
 }

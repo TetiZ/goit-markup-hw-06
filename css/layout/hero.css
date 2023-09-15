@@ -73,6 +73,7 @@
     /* Box model */
     padding: 112px 0;
     max-width: 768px;
+    margin: 0 auto;
 
     /* Visual */
     background-image: linear-gradient(
