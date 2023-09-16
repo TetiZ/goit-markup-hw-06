@@ -69,7 +69,7 @@
 
 /* ##### Devices settings ##### */
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 767px) {
   .portfolio-list-item:not(:last-child) {
     margin-bottom: 48px;
   }
@@ -80,11 +80,12 @@
     display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
-  }
-
-  .portfolio-list-item {
     width: calc((100% -24px) / 2);
   }
+
+  /* .portfolio-list-item {
+    width: calc((100% -24px) / 2);
+  } */
 }
 
 @media screen and (min-width: 1158px) {

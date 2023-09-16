@@ -53,6 +53,11 @@
     padding: 0;
   }
 
+  .navigation,
+  .contact-links {
+    color: #2e2f42;
+  }
+
   .navigation {
     /* Box model */
     padding: 24px 0;
@@ -97,11 +102,6 @@
 
     /* Transition */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .navigation-link,
-  .contact-links {
-    color: #2e2f42;
   }
 
   .contact-links:hover,
